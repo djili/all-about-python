@@ -1,0 +1,13 @@
+
+name: python-advance-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - ipykernel
+python :
+  - -m ipykernel install --user --name=python-advance-env --display-name "python-advance-env "
