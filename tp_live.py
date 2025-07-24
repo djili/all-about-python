@@ -33,6 +33,6 @@ elif(operation_choisit == "4"):
 else:
     print("Le chiffre n'est pas dans la liste")       
  
-from math import exp 
+from math import exp  # possible avec scify 
 def puissance(p0, t):
     return p0(1 - exp(t))
