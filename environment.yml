@@ -1,5 +1,5 @@
 
-name: python-advance-env
+name: adja-env
 channels:
   - conda-forge
 dependencies:
@@ -10,4 +10,4 @@ dependencies:
   - scikit-learn
   - ipykernel
 python :
-  - -m ipykernel install --user --name=python-advance-env --display-name "python-advance-env "
+  - -m ipykernel install --user --name=python-env --display-name "adja-kernel"
